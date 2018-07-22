@@ -1,0 +1,65 @@
+#map {
+    height: 100%;
+    /* width:1400px; */
+    /* margin: auto; */
+}
+  /* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-size: 12px;
+}
+
+#listing {
+    position: absolute;
+    width: 200px;
+    height: 470px;
+    overflow: auto;
+    left: 442px;
+    top: 0px;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+#countries-container {
+    top:45px;
+    left: 10px;
+    z-index: 10;
+    position: absolute; 
+}
+
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 100% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+ }
+ 
+ .styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+ }
+ 
+ .styled-select.slate {
+    background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+    height: 34px;
+    width: 240px;
+ }
+ 
+ .styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 34px;
+    width: 268px;
+ }
+
+
